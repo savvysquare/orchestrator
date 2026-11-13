@@ -2,3 +2,6 @@ fastapi
 uvicorn[standard]
 langchain-core
 langgraph
+langchain-anthropic
+langchain-openai
+pydantic
