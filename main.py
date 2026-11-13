@@ -1,3 +1,9 @@
+from fastapi import FastAPI
+
+app = FastAPI()
+
+# your routes and other code go below
+
 #!/usr/bin/env python3
 """
 Multi-AI Orchestrator with Graceful Degradation (LangGraph)
