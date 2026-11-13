@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -38,7 +40,7 @@ Run:
     python multi_ai_orchestrator.py --simulate-fail-step 2 --auto-resume
 """
 
-from __future__ import annotations
+
 
 import argparse
 import ast
