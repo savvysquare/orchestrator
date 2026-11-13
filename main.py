@@ -4,8 +4,12 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+
 # your routes and other code go below
 
+@app.get("/")
+def read_root():
+    return {"message": "Hello from FastAPI on Render!"}
 #!/usr/bin/env python3
 """
 Multi-AI Orchestrator with Graceful Degradation (LangGraph)
